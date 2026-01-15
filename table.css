@@ -1,0 +1,13 @@
+table,th,td{
+    border: 1px;
+    border-collapse:collapse;
+}
+
+th,td{
+    padding:5px;
+    text-align:center;
+}
+.error{
+    background-color: aquamarine;
+    color:rgb(230, 39, 14)
+ }
