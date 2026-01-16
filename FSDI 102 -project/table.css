@@ -1,0 +1,74 @@
+.content-table{
+    border: 1px solid ;
+    border-collapse: collapse;
+    margin:  25px 5px;
+    font: size 0.9em;
+    border-radius: 5px 5px 0 0;
+    overflow:hidden;
+    box-shadow:0 0 20px;
+    height:250px;
+
+}
+
+.content-table thead tr{
+    background-color: #cddb8f;
+    color:rgb(17, 17, 17);
+    text-align: left;
+    font-weight: bold;
+    height: 40px;
+    font-size: 20px;
+
+}s
+
+.content-table th,
+.content-table td{
+padding: 12px 15px;
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid rgb(228, 220, 220);
+}
+
+.content-table tbody tr:nth-of-type(even){
+    background-color: rgb(207, 245, 247);
+}
+ .content-table tbody tr:last-of-type{
+     border-bottom:5px solid  #cddb8f;
+   
+ }
+
+ 
+.error{
+    background-color: rgb(227, 233, 238);
+    color:rgb(230, 39, 14)
+ }
+
+h2{
+    text-align: center;
+    background-color: rgb(214, 186, 135);
+}
+header{
+    text-align: right;
+    background-color:rgb(70, 121, 108) ;
+    color: white;
+    box-shadow: 0 0 5px;
+    border-radius: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+.menu{
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+body{
+    background-color: rgb(253, 255, 254);
+}
+img{
+ margin-left: 25px;
+ align-items: center;
+ padding-bottom: 10px;
+ border-radius: 15px;
+ box-shadow: 0 0 10px;
+}
