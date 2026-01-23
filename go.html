@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
+    <title>restaurant project</title>
+</head>
+
+
+<body>
+
+     <header class="site=init">
+
+        <nav class="menu">
+            <ul menu-link-container>
+                <li class="menu-link"><a href="index.html">Home</a></li>
+                <li class="menu-link"><a href="gallery.html">Gallery</a></li>
+                <li class="menu-link"><a href="tables.html">lunch-expecial</a></li>
+                 <li class="menu-link"><a href="go.html">To go</a></li>
+                
+            </ul>
+        </nav>    
+        <h1>El Rey del Savor</h1>
+        <P>123 Main street Paterson NJ 07514</P>
+        <P>Tel. 973-456-7890</P>
+        <p>Here to serve you!</p>
+
+        <div>
+         <i class="fa-solid fa-cart-arrow-down"></i>
+            
+        </div>
+
+
+    </header>
+     
+    <main class="container">
+        <div class="form-flex">
+            <section>
+              <img src="salad.jpg" alt="">
+              <img src="fried-chicken.jpg" alt="">
+              <img src="" alt="">
+            </section>
+
+            <section class="form-control">
+               <h2>product title</h2>
+               <form action=""></form>
+
+               <div class="form-control">
+                  <label>Dishes:*</label>
+                  <select name="" id=""require>
+                      <option value="" selected disabled>-- Select a dish</option>
+                      <option value="Hamburger">hamburger</option>
+                      <option value="Fettuccine-alfredo">fettuccine-alfredo</option>
+                      <option value="Salad">Garden salad</option>
+                      <option value="Tacos">Tacos </option>
+                      <option value="Pizza">NY pizza</option>
+                      <option value="fried-chicken">Fried chicken</option>
+
+
+
+            </select>
+
+            <div class="form-control">
+                <label>size:*</label>
+                <select name="" id=""require>
+                    <option value="" selected disabled>-- Select a size</option>
+                    <option value="small">Small</option>
+                    <option value="midium">Midium</option>
+                    <option value="large">Large</option>
+
+                </select>
+            </div>
+            <div class="form-control" >
+                <label>Price</label>
+                <input type="number" value="0-9">
+            </div>
+            <div class="form-control">
+                <label>Quantity</label>
+                <input type="number" value="0">
+            </div>
+            <div class="form-control">
+                <label>description</label>
+                <textarea name="description" id="description"></textarea>
+            </div>
+            <div class="form-control">
+                <button>Add to cart</button>
+            </div>
+            </section>
+        </div>
+
+
+        <div class="pay-container">
+             <form action="">
+
+                <div class="pay-control">
+                        <h2>Payment Information</h2>
+                        <label>Payment Method*</label>
+                    <select name="" id="" required>
+                            <option value="" selected disabled>-- Select Payment Method --</option>
+                            <option value="Credit Card">Credit Card</option>
+                            <option value="Debit Card">Debit Card</option>
+                            <option value="Venmo/Apple Pay/Google Pay">Venmo/Apple Pay/Google Pay</option>
+                    </select>
+                </div>
+
+
+                <div class="card-number">
+                    <label>Card Number*</label>
+                    <input type="number">
+                </div>
+                <div class="card-cvv">
+                    <label>CVV:</label>
+                    <input type="number" value="0" id="CVV" placeholder="XXX" required>
+                </div>
+                <div class="exp-date">
+                    <label>Expiration Date:</label>
+                    <input type="date" value="0" placeholder="XX/XX" required>
+                </div>
+                <div class="cardholder">
+                    <label>Cardholder Name:</label>
+                    <input type="text" >
+                </div>
+                <div class="Malling Address">
+                    <label>Mailing Address:</label>
+                    <input type="text" >
+                </div>
+                <div class="Shipping Address">
+                    <label>Shipping Address:</label>
+                    <input type="text" >
+                </div>
+                    <button class="btn">Pay Now</button>
+
+
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>
+
+
+
+ 
